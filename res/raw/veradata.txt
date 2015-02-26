@@ -1,0 +1,29 @@
+[
+{ "full": 1, 
+"version": "*1.1.1362*",
+ "model": "SERCOMM NA401", 
+ "zwave_heal": 1, 
+ "temperature": "C", 
+ "serial_number": "32046\n", 
+ "fwd1": "fwd2.mios.com", 
+ "fwd2": "fwd1.mios.com", 
+ "sections": 
+ 	[ 
+ 	{ "name": "My Home", "id": 1 }
+  	],
+ "rooms": 
+ 	[ 
+ 	{ "name": "Gabinet", "id": 1, "section": 1 }, 
+ 	{ "name": "KORYTARZ", "id": 6, "section": 1 }, 
+ 	{ "name": "KUCHNIA", "id": 3, "section": 1 }, 
+ 	{ "name": "MATI", "id": 7, "section": 1 }, 
+ 	{ "name": "SYPIALNIA", "id": 2, "section": 1 }, 
+ 	{ "name": "zhouse addons", "id": 8, "section": 1 }, 
+ 	{ "name": "ŁAZIENKA MAŁA", "id": 4, "section": 1 }, 
+ 	{ "name": "ŁAZIENKA SYPIALNIA", "id": 5, "section": 1 } 
+ 	],
+ "scenes": [ ], 
+ "devices": 
+ 	[ 
+ 	{ "name": "Appliance Module", "altid": "e1", "id": 11, "category": 3, "subcategory": 0, "room": 1, "parent": 10, "status": "0" }, 
+ 	{ "name": "Appliance Module", "altid": "e1", "id": 23, "category": 3, "subcategory": 0, "room": 4, "parent": 22, "status": "0" }, { "name": "Appliance Module", "altid": "e1", "id": 25, "category": 3, "subcategory": 0, "room": 7, "parent": 24, "status": "0" }, { "name": "Appliance Module", "altid": "e1", "id": 41, "category": 3, "subcategory": 0, "room": 3, "parent": 40, "status": "0" }, { "name": "Astronomia", "altid": "", "id": 61, "category": 0, "subcategory": -1, "room": 8, "parent": 0 }, { "name": "Embedded Humidity Sensor", "altid": "e2", "id": 58, "category": 16, "subcategory": 0, "room": 0, "parent": 56, "humidity": "30" }, { "name": "Embedded Temperature Sensor", "altid": "e1", "id": 57, "category": 17, "subcategory": 0, "room": 0, "parent": 56, "temperature": "26" }, { "name": "gabinet mata", "altid": "14", "id": 10, "category": 3, "subcategory": 0, "room": 1, "parent": 1, "status": "0", "state": -1, "comment": "" }, { "name": "High Temperature", "altid": "Weather-Forecast-HighTemperature", "id": 65, "category": 17, "subcategory": 0, "room": 8, "parent": 62 }, { "name": "Humidity", "altid": "Weather-Current-Humidity", "id": 66, "category": 16, "subcategory": 0, "room": 8, "parent": 62 }, { "name": "Kuchnia mata", "altid": "12", "id": 40, "category": 3, "subcategory": 0, "room": 3, "parent": 1, "status": "0", "state": -1, "comment": "" }, { "name": "Low Temperature", "altid": "Weather-Forecast-LowTemperature", "id": 64, "category": 17, "subcategory": 0, "room": 8, "parent": 62 }, { "name": "mati mata", "altid": "11", "id": 24, "category": 3, "subcategory": 0, "room": 7, "parent": 1, "status": "0", "state": -1, "comment": "" }, { "name": "Pogoda Google", "altid": "", "id": 62, "category": 0, "subcategory": -1, "room": 8, "parent": 0 }, { "name": "Pozycja słońca", "altid": "", "id": 67, "category": 0, "subcategory": -1, "room": 8, "parent": 0 }, { "name": "Temp Humidity Sensor", "altid": "18", "id": 56, "category": 1, "subcategory": 0, "room": 0, "parent": 1, "status": "1", "temperature": "26", "humidity": "35", "state": 2, "comment": "_Temp Humidity Sensor: Failed at: Setting user configuration" }, { "name": "Temperature", "altid": "Weather-Current-Temperature", "id": 63, "category": 17, "subcategory": 0, "room": 8, "parent": 62 }, { "name": "Temperature Sensor", "altid": "e1", "id": 32, "category": 17, "subcategory": 0, "room": 5, "parent": 4, "status": "1" }, { "name": "Wysyłanie maili", "altid": "", "id": 68, "category": 0, "subcategory": -1, "room": 8, "parent": 0 }, { "name": "łazienka Mati", "altid": "20", "id": 22, "category": 3, "subcategory": 0, "room": 4, "parent": 1, "status": "0", "state": -1, "comment": "" }, { "name": "łazienka sypialnia mata", "altid": "10", "id": 4, "category": 3, "subcategory": 0, "room": 5, "parent": 1, "status": "0", "state": -1, "comment": "" } ], "categories": [ { "name": "Interface", "id": 1 }, { "name": "Switch", "id": 3 }, { "name": "Humidity Sensor", "id": 16 }, { "name": "Temperature Sensor", "id": 17 } ], "loadtime": 1334066411, "dataversion": 66411215, "state": 2, "comment": "INSTEON: No INSTEON" }]

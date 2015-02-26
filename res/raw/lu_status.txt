@@ -1,0 +1,175 @@
+{ 
+"startup": 
+	{ 
+	"tasks": 
+		[ 
+		{ "id": 7, "status": 0, "type": "Danfoss zadania[18]", "comments": "Running Lua Startup" }, 
+		{ "id": 11, "status": 2, "type": "TI eZ430-Chronos RF Watch[32]", "comments": "IO port not open" }
+		] 
+	}, 
+	"devices": 
+		[ 
+		{ 
+		"id": 1, "states": 
+			[ 
+			{ "id": 44, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "Use45", "value": "1" }, 
+			{ "id": 45, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "UseMR", "value": "1" }, 
+			{ "id": 46, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "LimitNeighbors", "value": "0" }, 
+			{ "id": 47, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "LastUpdate", "value": "1336745155" }, 
+			{ "id": 48, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "NetStatusID", "value": "1" }, 
+			{ "id": 49, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "NetStatusText", "value": "OK" }, 
+			{ "id": 50, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "LockComPort", "value": "1" }, 
+			{ "id": 51, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "ComPort", "value": "\/dev\/tts\/1" }, 
+			{ "id": 52, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "PollingEnabled", "value": "1" }, 
+			{ "id": 53, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "PollDelayInitial", "value": "20" }, 
+			{ "id": 54, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "PollDelayDeadTime", "value": "10" }, 
+			{ "id": 55, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "PollMinDelay", "value": "30" }, 
+			{ "id": 56, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "PollFrequency", "value": "60" }, 
+			{ "id": 57, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "VersionInfo", "value": "3.20 L:1" }, 
+			{ "id": 58, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "HomeID", "value": "House: 14901b0 Node 1 Suc 0" }, 
+			{ "id": 59, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "Role", "value": "Master SIS:NO PRI:YES" }, 
+			{ "id": 60, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "LastDongleBackup", "value": "1336502769" }, 
+			{ "id": 61, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "LastError", "value": "Poll failed" }, 
+			{ "id": 62, "service": "urn:micasaverde-com:serviceId:ZWaveNetwork1", "variable": "SceneIDs", "value": "29-1=1," }, 
+			{ "id": 63, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "AutoConfigure", "value": "1" }, 
+			{ "id": 64, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastTimeOffset", "value": "2" }, 
+			{ "id": 65, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" }, 
+			{ "id": 66, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } 
+			], 
+		"Jobs": 
+			[ 
+			], 
+		"tooltip": 
+			{ 
+			"display": 0 
+			}, 
+		"status": -1 
+		}, 
+		{ 
+		"id": 2, "states": 
+			[ 
+			{ "id": 4, "service": "urn:micasaverde-com:serviceId:SceneController1", "variable": "Scenes", "value": "" }, 
+			{ "id": 5, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "IgnoreRoom", "value": "1" }, 
+			{ "id": 6, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } 
+			], 
+		"Jobs": 
+			[ 
+			], 
+		"tooltip": 
+			{
+			"display": 0 
+			}, 
+		"status": -1 
+		}, 
+		{ 
+		"id": 3, "states": 
+			[ 
+			{ "id": 5, "service": "urn:micasaverde-com:serviceId:SceneController1", "variable": "Scenes", "value": "Button #1-on=WyĹÄcz ĹwiatĹo, " }, 
+			{ "id": 6, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "1" }, 
+			{ "id": 7, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "" } 
+			], 
+		"Jobs": 
+			[ 
+			], 
+		"tooltip": 
+			{ 
+			"display": 0 
+			}, 
+		"status": -1 
+		}, 
+		{ 
+		"id": 5, "states": 
+			[ 
+			{ "id": 35, "service": "urn:micasaverde-com:serviceId:SecuritySensor1", "variable": "Armed", "value": "0" }, 
+			{ "id": 36, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "-1" }, 
+			{ "id": 37, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" }, 
+			{ "id": 38, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "Capabilities", "value": "" }, 
+			{ "id": 39, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "VersionInfo", "value": "" }, 
+			{ "id": 40, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "ManufacturerInfo", "value": "" }, 
+			{ "id": 41, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "Neighbors", "value": "" }, 
+			{ "id": 42, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "LastReset", "value": "" }, 
+			{ "id": 43, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "MultiChEndpoint", "value": "" }, 
+			{ "id": 44, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "MultiChCapabilities", "value": "" }, 
+			{ "id": 45, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "AssociationNum", "value": "" }, 
+			{ "id": 46, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "ConfiguredName", "value": "" }, 
+			{ "id": 47, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "ConfiguredVariable", "value": "" }, 
+			{ "id": 48, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "ConfiguredAssoc", "value": "" }, 
+			{ "id": 49, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "NodeInfo", "value": "" }, 
+			{ "id": 50, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "MeterType", "value": "" }, 
+			{ "id": 51, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "MeterScale", "value": "" }, 
+			{ "id": 52, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "SetPointInfo", "value": "" } 
+			], 
+		"Jobs": 
+			[ 
+			], 
+		"tooltip": 
+			{ "display": 1, "tag2": "Waiting for wakeup to configure device" }, 
+		"status": 1 
+		}, 
+		{ 
+		"id": 7, "states": 
+			[ 
+			{ "id": 51, "service": "urn:upnp-org:serviceId:SwitchPower1", "variable": "Status", "value": "1" }, 
+			{ "id": 52, "service": "urn:upnp-org:serviceId:Dimming1", "variable": "LoadLevelStatus", "value": "22" }, 
+			{ "id": 53, "service": "urn:upnp-org:serviceId:Dimming1", "variable": "LoadLevelTarget", "value": "50" }, 
+			{ "id": 54, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "1" }, 
+			{ "id": 55, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "1336698796" }, 
+			{ "id": 56, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "FirstConfigured", "value": "1276474938" }, 
+			{ "id": 57, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "CommFailure", "value": "1" }, 
+			{ "id": 58, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "ManufacturerInfo", "value": "134,0,4" }, 
+			{ "id": 59, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "Capabilities", "value": "209,132,0,3,17,1,L,R,|38:1,39,114,115,117,133,134," }, 
+			{ "id": 60, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "NodeInfo", "value": "26,27,72,73,75,85,86," }, 
+			{ "id": 61, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "ConfiguredAssoc", "value": "" }, 
+			{ "id": 62, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "PollSettings", "value": "60" }, 
+			{ "id": 63, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "VersionInfo", "value": "4,2,67,2,6" }, 
+			{ "id": 64, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "Neighbors", "value": "1,83,85," }, 
+			{ "id": 65, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "LastReset", "value": "1336691279" }, 
+			{ "id": 66, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "AssociationNum", "value": "1" }, 
+			{ "id": 67, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "PollOk", "value": "14405" }, 
+			{ "id": 68, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "LastRouteUpdate", "value": "1336734569" }, 
+			{ "id": 69, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "PollNoReply", "value": "86" }, 
+			{ "id": 70, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "MultiChEndpoint", "value": "" }, 
+			{ "id": 71, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "MultiChCapabilities", "value": "" }, 
+			{ "id": 72, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "ConfiguredName", "value": "" }, 
+			{ "id": 73, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "ConfiguredVariable", "value": "" }, 
+			{ "id": 74, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "MeterType", "value": "" }, 
+			{ "id": 75, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "MeterScale", "value": "" }, 
+			{ "id": 76, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "SetPointInfo", "value": "" } 
+			], 
+		"Jobs": 
+			[ 
+			], 
+		"tooltip": 
+			{ 
+			"display": 0 
+			}, 
+		"status": -1 
+		}, 
+		
+		
+		{ "id": 8, "states": [ { "id": 12, "service": "urn:micasaverde-com:serviceId:EEM-Plugin1", "variable": "GotKey", "value": "0" }, { "id": 13, "service": "urn:micasaverde-com:serviceId:EEM-Plugin1", "variable": "UserDataVersion", "value": "745149001" }, { "id": 14, "service": "urn:micasaverde-com:serviceId:EEM-Plugin1", "variable": "EMDeviceList", "value": "7;29;30;31;33" }, { "id": 15, "service": "urn:micasaverde-com:serviceId:EEM-Plugin1", "variable": "TSDeviceList", "value": "20;33" }, { "id": 16, "service": "urn:micasaverde-com:serviceId:EEM-Plugin1", "variable": "GatewayRegistered", "value": "0" }, { "id": 17, "service": "urn:micasaverde-com:serviceId:EEM-Plugin1", "variable": "DevicesRegistered", "value": "0" }, { "id": 18, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 9, "states": [ { "id": 10, "service": "urn:upnp-micasaverde-com:serviceId:Weather1", "variable": "Location", "value": "" }, { "id": 11, "service": "urn:upnp-micasaverde-com:serviceId:Weather1", "variable": "Metric", "value": "1" }, { "id": 12, "service": "urn:upnp-micasaverde-com:serviceId:Weather1", "variable": "Period", "value": "20" }, { "id": 13, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "CommFailure", "value": "0" }, { "id": 14, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" }, { "id": 15, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 10, "states": [ { "id": 18, "service": "urn:futzle-com:serviceId:AstronomicalPosition_Sun", "variable": "RightAscension", "value": "48.8681" }, { "id": 19, "service": "urn:futzle-com:serviceId:AstronomicalPosition_Sun", "variable": "RightAscensionRounded", "value": "48.9" }, { "id": 20, "service": "urn:futzle-com:serviceId:AstronomicalPosition_Sun", "variable": "Declination", "value": "18.0828" }, { "id": 21, "service": "urn:futzle-com:serviceId:AstronomicalPosition_Sun", "variable": "DeclinationRounded", "value": "18.1" }, { "id": 22, "service": "urn:futzle-com:serviceId:AstronomicalPosition_Sun", "variable": "Azimuth", "value": "-109.117" }, { "id": 23, "service": "urn:futzle-com:serviceId:AstronomicalPosition_Sun", "variable": "AzimuthRounded", "value": "-109.1" }, { "id": 24, "service": "urn:futzle-com:serviceId:AstronomicalPosition_Sun", "variable": "Altitude", "value": "35.747" }, { "id": 25, "service": "urn:futzle-com:serviceId:AstronomicalPosition_Sun", "variable": "AltitudeRounded", "value": "35.7" }, { "id": 26, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" }, { "id": 27, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 11, "states": [ { "id": 2, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" }, { "id": 3, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 12, "states": [ { "id": 2, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" }, { "id": 3, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 13, "states": [ { "id": 2, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" }, { "id": 3, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 14, "states": [ { "id": 2, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" }, { "id": 3, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 16, "states": [ { "id": 19, "service": "urn:demo-ted-striker:serviceId:PingSensor1", "variable": "Period", "value": "2" }, { "id": 20, "service": "urn:demo-ted-striker:serviceId:PingSensor1", "variable": "Address", "value": "192.168.0.105" }, { "id": 21, "service": "urn:demo-ted-striker:serviceId:PingSensor1", "variable": "Invert", "value": "0" }, { "id": 22, "service": "urn:micasaverde-com:serviceId:SecuritySensor1", "variable": "Tripped", "value": "0" }, { "id": 23, "service": "urn:micasaverde-com:serviceId:SecuritySensor1", "variable": "LastTrip", "value": "1336741594" }, { "id": 24, "service": "urn:micasaverde-com:serviceId:SecuritySensor1", "variable": "Armed", "value": "0" }, { "id": 25, "service": "urn:upnp-org:serviceId:SwitchPower1", "variable": "Target", "value": "1" }, { "id": 26, "service": "urn:upnp-org:serviceId:SwitchPower1", "variable": "Status", "value": "1" }, { "id": 27, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" }, { "id": 28, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "1336745183" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 17, "states": [ { "id": 121, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeProviderEU", "value": "1" }, { "id": 122, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "DisplayMoonPhase", "value": "1" }, { "id": 123, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "DisplayMoonPhaseFont", "value": "Quivira" }, { "id": 124, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "Sunrise", "value": "1336705636" }, { "id": 125, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "Sunset", "value": "1336762180" }, { "id": 126, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "Sunrise_HUF", "value": "2012-05-11 05:07:44" }, { "id": 127, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "Sunset_HUF", "value": "2012-05-11 20:50:40" }, { "id": 128, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "CivilTwilightBegin", "value": "1336703024" }, { "id": 129, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "CivilTwilightEnd", "value": "1336764801" }, { "id": 130, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "CivilTwilightBegin_HUF", "value": "2012-05-11 04:22:56" }, { "id": 131, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "CivilTwilightEnd_HUF", "value": "2012-05-11 21:33:20" }, { "id": 132, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "NauticalTwilightBegin", "value": "1336699393" }, { "id": 133, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "NauticalTwilightEnd", "value": "1336768455" }, { "id": 134, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "NauticalTwilightBegin_HUF", "value": "2012-05-11 03:23:12" }, { "id": 135, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "NauticalTwilightEnd_HUF", "value": "2012-05-11 22:35:12" }, { "id": 136, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "AstronomicalTwilightBegin", "value": "1336779511" }, { "id": 137, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "AstronomicalTwilightEnd", "value": "1336861360" }, { "id": 138, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "AstronomicalTwilightBegin_HUF", "value": "2012-05-12 01:38:40" }, { "id": 139, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "AstronomicalTwilightEnd_HUF", "value": "2012-05-13 00:21:52" }, { "id": 140, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "Moonrise", "value": "1336691580" }, { "id": 141, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "Moonset", "value": "1336724880" }, { "id": 142, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "Moonrise_HUF", "value": "2012-05-11 01:13:04" }, { "id": 143, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "Moonset_HUF", "value": "2012-05-11 10:27:44" }, { "id": 144, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "DAD_USNO_MOON1_URL", "value": "http:\/\/aa.usno.navy.mil\/cgi-bin\/aa_rstablew.pl?FFX=2&xxy=2012&type=1&place=&xx0=1&xx1=14&xx2=35&yy0=1&yy1=53&yy2=25&zz0=1&zz1=2&ZZZ=END" }, { "id": 145, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "MoonIlluminationMidnight", "value": "71" }, { "id": 146, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "DAD_USNO_MOON2_URL", "value": "http:\/\/aa.usno.navy.mil\/cgi-bin\/aa_moonill2.pl?&xxy=2012&time=00&zone=02&ZZZ=END" }, { "id": 147, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "MoonIlluminationNoon", "value": "66" }, { "id": 148, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "DAD_USNO_MOON3_URL", "value": "http:\/\/aa.usno.navy.mil\/cgi-bin\/aa_moonill2.pl?&xxy=2012&time=12&zone=02&ZZZ=END" }, { "id": 149, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "Sunrise_HHMMSS", "value": "05:07:44" }, { "id": 150, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "Sunset_HHMMSS", "value": "20:50:40" }, { "id": 151, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "Moonrise_HHMMSS", "value": "01:13:04" }, { "id": 152, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "Moonset_HHMMSS", "value": "10:27:44" }, { "id": 153, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "MoonIcon", "value": "<font face=\"Quivira\">&#127766;<\/font>" }, { "id": 154, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "ZodiacSign", "value": "&#9801;" }, { "id": 155, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "Message", "value": "<table><tr><td><font size=5>&#9801;<\/font><\/td><td><table><tr><td>â<\/td><td>05:07:44<\/td><td>20:50:40<\/td><\/tr><tr><td><font face=\"Quivira\">&#127766;<\/font><\/td><td>01:13:04<\/td><td>10:27:44<\/td><\/tr><\/table><\/td><\/tr><\/table>" }, { "id": 156, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "DoseRateStationURL", "value": "http:\/\/odlinfo.bfs.de\/11.php" }, { "id": 157, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "DoseRateStationID", "value": "110000007" }, { "id": 158, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "DoseRateStationLocation", "value": "13405 Berlin-Tegel" }, { "id": 159, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "DoseRateStationHeight", "value": "36" }, { "id": 160, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "DoseRateStationStatus", "value": "betriebsbereit" }, { "id": 161, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "DoseRateTotal", "value": "68" }, { "id": 162, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "DoseRateThreshold", "value": "0" }, { "id": 163, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "DoseRateTotalWarning", "value": "1" }, { "id": 164, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeSrc", "value": "" }, { "id": 165, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeID", "value": "797905" }, { "id": 166, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeVersion", "value": "" }, { "id": 167, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeDateUTC", "value": "2012-05-11T12:41:30" }, { "id": 168, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeLatitude", "value": "26.33" }, { "id": 169, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeLongitude", "value": "92.96" }, { "id": 170, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeMagnitude", "value": "5.6" }, { "id": 171, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeDepth", "value": "172" }, { "id": 172, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeNST", "value": "" }, { "id": 173, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeRegion", "value": "ASSAM, INDIA" }, { "id": 174, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeDate", "value": "1336740090" }, { "id": 175, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeDate_HUF", "value": "2012-05-11 14:41:36" }, { "id": 176, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeMapURL", "value": "<a href=\"http:\/\/maps.google.com\/maps?q=26.33,92.96&z=8\">Map<\/a>" }, { "id": 177, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeDistance", "value": "6935" }, { "id": 178, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "EarthquakeRawData", "value": "<table border=1><tr><td>Src<\/td><td>Eqid<\/td><td>Version<\/td><td>Datetime<\/td><td>Lat<\/td><td>Lon<\/td><td>Magnitude<\/td><td>Depth<\/td><td>NST<\/td><td>Region\r<\/td><\/tr><tr><td>nc<\/td><td>71783951<\/td><td>0<\/td><td>Friday&#44; May 11&#44; 2012 14:19:16 UTC<\/td><td>38.7692<\/td><td>-122.7022<\/td><td>1.6<\/td><td>2.20<\/td><td>21<\/td><td>Northern California\r<\/td><\/tr><tr><td>nc<\/td><td>71783931<\/td><td>0<\/td><td>Friday&#44; May 11&#44; 2012 13:45:10 UTC<\/td><td>38.8368<\/td><td>-122.8390<\/td><td>0.4<\/td><td>2.60<\/td><td> 8<\/td><td>Northern California\r<\/td><\/tr><tr><td>ci<\/td><td>15147561<\/td><td>0<\/td><td>Friday&#44; May 11&#44; 2012 13:44:25 UTC<\/td><td>33.4393<\/td><td>-116.4208<\/td><td>1.0<\/td><td>5.20<\/td><td>23<\/td><td>Southern California\r<\/td><\/tr><tr><td>ak<\/td><td>10470555<\/td><td>1<\/td><td>Friday&#44; May 11&#44; 2012 13:38:01 UTC<\/td><td>62.9355<\/td><td>-148.2087<\/td><td>1.5<\/td><td>76.80<\/td><td> 6<\/td><td>Central Alaska\r<\/td><\/tr><tr><td>nc<\/td><td>71783926<\/td><td>0<\/td><td>Friday&#44; May 11&#44; 2012 13:31:53 UTC<\/td><td>38.8377<\/td><td>-122.7995<\/td><td>0.4<\/td><td>1.80<\/td><td> 8<\/td><td>Northern California\r<\/td><\/tr><tr><td><\/td><\/tr><\/table>" }, { "id": 179, "service": "urn:upnp-ap15e-com:serviceId:DAD1", "variable": "LastAstronomicalEvent", "value": "MoonSet" }, { "id": 180, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" }, { "id": 181, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 18, "states": [ { "id": 13, "service": "urn:upnp-org:serviceId:HVAC_SetpointSchedule1", "variable": "EventsPerDay", "value": "2" }, { "id": 14, "service": "urn:upnp-ap15e-com:serviceId:DSS_HVAC_SetpointSchedule1", "variable": "DanfossDeviceIDs", "value": "15" }, { "id": 15, "service": "urn:upnp-ap15e-com:serviceId:DSS_HVAC_SetpointSchedule1", "variable": "ReferenceTemperature", "value": "17" }, { "id": 16, "service": "urn:upnp-ap15e-com:serviceId:DSS_HVAC_SetpointSchedule1", "variable": "EventsPerDayHTML", "value": "<table border=1 style=\"font-size: 90%\"><tr><th>DOW<\/th><th>Event<\/th><th>Start<\/th><th>Heat<\/th><th>Cool<\/th><\/tr><\/table>" }, { "id": 17, "service": "urn:upnp-ap15e-com:serviceId:DSS_HVAC_SetpointSchedule1", "variable": "JobStatus", "value": "" }, { "id": 18, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" }, { "id": 19, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 20, "states": [ { "id": 43, "service": "urn:upnp-org:serviceId:TemperatureSetpoint1_Heat", "variable": "CurrentSetpoint", "value": "21" }, { "id": 44, "service": "urn:upnp-org:serviceId:TemperatureSetpoint1_Heat", "variable": "SetpointTarget", "value": "23" }, { "id": 45, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "-1" }, { "id": 46, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" }, { "id": 47, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "FirstConfigured", "value": "1334595919" }, { "id": 48, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "CommFailure", "value": "1" }, { "id": 49, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "BatteryDate", "value": "1336093825" }, { "id": 50, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "BatteryLevel", "value": "1" }, { "id": 51, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "ManufacturerInfo", "value": "2,32773,1" }, { "id": 52, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "Capabilities", "value": "81,140,0,4,8,4,R,RS,|67,70,114,117,128,129,132:2,134,143,145," }, { "id": 53, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "WakeupInterval", "value": "300" }, { "id": 54, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "NodeInfo", "value": "43,46,72,75,80,81,84,86,8f,91," }, { "id": 55, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "SetPointInfo", "value": "" }, { "id": 56, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "PollSettings", "value": "10800" }, { "id": 57, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "VersionInfo", "value": "6,2,67,2,6" }, { "id": 58, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "Neighbors", "value": "1,82," }, { "id": 59, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "LastReset", "value": "0" }, { "id": 60, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "AssociationNum", "value": "0" }, { "id": 61, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "PollNoReply", "value": "124" }, { "id": 62, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "LastRouteUpdate", "value": "1336089379" }, { "id": 63, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "LastWakeup", "value": "1336093825" }, { "id": 64, "service": "urn:upnp-org:serviceId:Dimming1", "variable": "LoadLevelTarget", "value": "71" } ], "Jobs": [ ], "tooltip": { "display": 1, "tag2": "Waiting for wakeup to configure device" }, "status": 1 }, 
+		{ "id": 25, "states": [ { "id": 1, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 26, "states": [ { "id": 16, "service": "urn:upnp-org:serviceId:SwitchPower1", "variable": "Status", "value": "0" }, { "id": 17, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" }, { "id": 18, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" }, { "id": 19, "service": "urn:demo-zmaf:serviceId:WakeupRamp", "variable": "Devices", "value": "7" }, { "id": 20, "service": "urn:demo-zmaf:serviceId:WakeupRamp", "variable": "MaxLevel", "value": "100" }, { "id": 21, "service": "urn:demo-zmaf:serviceId:WakeupRamp", "variable": "RampTimeSecs", "value": "60" }, { "id": 22, "service": "urn:demo-zmaf:serviceId:WakeupRamp", "variable": "MinInterval", "value": "3" }, { "id": 23, "service": "urn:demo-zmaf:serviceId:WakeupRamp", "variable": "InhibitingDevices", "value": "" }, { "id": 24, "service": "urn:demo-zmaf:serviceId:WakeupRamp", "variable": "CurrentBrightness", "value": "15" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 27, "states": [ { "id": 6, "service": "urn:upnp-org:serviceId:VSwitch1", "variable": "Status", "value": "0" }, { "id": 7, "service": "urn:upnp-org:serviceId:VSwitch1", "variable": "Text1", "value": "VIRTUAL" }, { "id": 8, "service": "urn:upnp-org:serviceId:VSwitch1", "variable": "Text2", "value": "SWITCH" }, { "id": 9, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 28, "states": [ { "id": 8, "service": "urn:micasaverde-com:serviceId:Camera1", "variable": "URL", "value": "http:\/\/augustyna.pl\/widok.jpg" }, { "id": 9, "service": "urn:micasaverde-com:serviceId:Camera1", "variable": "Timeout", "value": "5" }, { "id": 10, "service": "urn:micasaverde-com:serviceId:Camera1", "variable": "PreRollBuffer", "value": "0" }, { "id": 11, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" }, { "id": 12, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 29, "states": [ { "id": 29, "service": "urn:upnp-org:serviceId:SwitchPower1", "variable": "Status", "value": "0" }, { "id": 30, "service": "urn:upnp-org:serviceId:SwitchPower1", "variable": "Target", "value": "0" }, { "id": 31, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "1" }, { "id": 32, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "1336696024" }, { "id": 33, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "FirstConfigured", "value": "1336498837" }, { "id": 34, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "Capabilities", "value": "210,156,0,4,16,1,L,R,B,RS,|37,39,114,117,130,134,135," }, { "id": 35, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "ManufacturerInfo", "value": "100,12289,0" }, { "id": 36, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "VersionInfo", "value": "6,2,51,1,0" }, { "id": 37, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "NodeInfo", "value": "25,27,72,75,82,86,87," }, { "id": 38, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "PollSettings", "value": "60" }, { "id": 39, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "Neighbors", "value": "1,82," }, { "id": 40, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "LastReset", "value": "0" }, { "id": 41, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "AssociationNum", "value": "0" }, { "id": 42, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "PollOk", "value": "13" }, { "id": 43, "service": "urn:micasaverde-com:serviceId:ZWaveDevice1", "variable": "LastRouteUpdate", "value": "1336714999" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 30, "states": [ { "id": 1, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 31, "states": [ { "id": 1, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 }, 
+		{ "id": 32, "states": [ { "id": 4, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "LastUpdate", "value": "0" }, { "id": 5, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "CommFailure", "value": "1" }, { "id": 6, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 1, "tag2": "Lua Startup Failure" }, "status": 2 }, 
+		{ "id": 33, "states": [ { "id": 1, "service": "urn:micasaverde-com:serviceId:HaDevice1", "variable": "Configured", "value": "0" } ], "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1 } ], "scenes": [ { "id": 7, "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1, "active": false }, { "id": 1, "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1, "active": false }, { "id": 6, "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1, "active": false }, { "id": 5, "Jobs": [ ], "tooltip": { "display": 0 }, "status": -1, "active": false } ], "LoadTime": 1336745149, "DataVersion": 745150763, "UserData_DataVersion": 745149001, "TimeStamp": 1336746844, "ZWaveStatus": 1, "LocalTime": "2012-05-11 16:34:04 D" }
+		
+		
+		
+		
+		
+		

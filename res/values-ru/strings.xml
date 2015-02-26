@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zhouse</string>
+    
+    <string name="login_description">Соединение с Вашим домом:</string>
+    <string name="login_username">логин</string>
+    <string name="login_password">пароль</string>
+    <string name="login_ipaddress">ip адрес</string>
+    <string name="login_button">Вход</string>
+    <string name="login_button_local">Локальный вход</string>
+    <string name="login_user_pass_missing">Введите\n логин и пароль</string>
+    <string name="login_user_missing">Введите логин</string>
+    <string name="login_pass_missing">Введите пароль</string>
+    <string name="login_looking_vera_msg">Идет поиск сервера&#8320;</string>
+    <string name="login_server_found_remote">Сервер найден \n по удаленному соединению</string>
+    <string name="login_server_found_local">Сервер найден \n в локальной сети</string>
+    <string name="login_server_notfound">Сервер не найден. \n Проверьте соединение с \n интернетом и учетные данные \n или настройте вручную IP \n адрес в локальной сети. </string>
+    <!-- DEVICES WINDOWS STRINGS -->
+    
+    <string name="window_dimmer_set_on">ВКЛ</string>
+    <string name="window_dimmer_set_off">ВЫКЛ</string>
+
+    <string name="window_danfoss_set">ЗАДАТЬ</string>
+    <string name="window_danfoss_plus">+</string>
+    <string name="window_danfoss_minus">-</string>
+
+    <string name="window_windowcover_open">ОТКРЫТЬ</string>
+    <string name="window_windowcover_stop">СТОП</string>
+    <string name="window_windowcover_close">ЗАКРЫТЬ</string>
+    
+    <string name="window_thermostat_heat">обогрев</string>
+    <string name="window_thermostat_cool">охлаждение</string>
+    <string name="window_thermostat_mode">термостат</string>
+    <string name="window_thermostat_fanmode">обдув</string>
+    
+    <string name="window_thermostat_mode_off">выкл</string>
+    <string name="window_thermostat_mode_cool">охлажд.</string>
+    <string name="window_thermostat_mode_heat">обогрев</string>
+    <string name="window_thermostat_mode_auto">авто</string>
+    
+    <string name="window_thermostat_fanmode_on">вкл</string>
+    <string name="window_thermostat_fanmode_cycle">цикл</string>
+    <string name="window_thermostat_fanmode_auto">авто</string>
+    
+    
+    <!-- OTHERS -->
+    <string name="change_room_icon_txt">Сменить иконку</string>
+    <string name="change_room_icon_for_txt">Сменить иконку для</string>
+    
+    <string name="kitchen_icon_name">Кухня</string>
+    <string name="restroom_icon_name">Гостинная</string>
+    <string name="bedroom_icon_name">Спальня</string>
+    <string name="bathroom_icon_name">Ванная</string>
+    <string name="anteroom_icon_name">Прихожая</string>
+    <string name="basement_icon_name">Подвал</string>
+    <string name="cloakroom_icon_name">Гардероб</string>
+    <string name="garage_icon_name">Гараж</string>
+    <string name="kidsroom_icon_name">Детская</string>    
+<string name="bathroom2_icon_name">Ванная 2</string>
+<string name="bedroom2_icon_name">Спальня 2</string>
+<string name="restroom2_icon_name">Гостинная 2</string>
+<string name="dining_room_icon_name">Столовая</string>
+<string name="education_room_icon_name">Кабинет</string>
+<string name="garden_icon_name">Сад</string>
+<string name="laundry_icon_name">Прачечная</string>
+<string name="library_icon_name">Библиотека</string>
+<string name="multimedia_icon_name">Мультимедиа</string>
+<string name="office_icon_name">Офис</string>
+<string name="pool_icon_name">Бассейн</string>
+<string name="stairs_icon_name">Лестница</string>
+<string name="empty_icon_name">Пусто</string>
+    <string name="sunrise_txt">рассвет</string>
+    <string name="sunset_txt">закат</string>
+    
+    <string name="condition_txt">состояния:\nвлажность:\nтемпература:\nмин. температура:\nмакс. температура:\n</string>
+    <string name="thermostat_state_desc">нагрев:\nохлажд.:\nрежим:\nрежим обдува:\nсостояние:\n</string>
+
+    <string name="variable_txt">имя переменной 1:\nимя переменной 2:\nимя переменной 3:\nимя переменной 4:\nимя переменной 5:</string>
+    <string name="variable_state_txt">0\n0\n0\n0\n0</string>
+    
+    <string name="no_room_name">Нет комнаты</string>
+    <string name="no_connection_reminder">Отсутствует соединение с сервером</string>
+    
+
+    <!-- ERRORS -->
+    
+    <string name="error_undefined">неизвестная ошибка</string>
+    <string name="error_getting_data">ошибка получения данных</string>
+    <string name="error_cannot_find_camera">Не удалось соединиться с камерой</string>
+    <string name="camera_view_error_getting_view">Ошибка получения видеопотока</string>
+    
+    <!-- OPTIONS -->
+    
+    <string name="options_change_servers_window_desc">Смена сервера</string>    
+    
+    <!-- LOCK KEYPAD -->
+    <string name="one_num">1</string>
+    <string name="two_num">2</string>
+    <string name="three_num">3</string>
+    <string name="four_num">4</string>
+    <string name="five_num">5</string>
+    <string name="six_num">6</string>
+    <string name="seven_num">7</string>
+    <string name="eight_num">8</string>
+    <string name="nine_num">9</string>
+    <string name="zero_num">0</string>
+    <string name="close_txt">закрыть</string>
+    <string name="open_txt">открыть</string>
+    
+    <!-- CONNECTION MESSAGES -->
+    <string name="contype_noconfig_txt">Отсутствует конфигурация</string>
+    <string name="contype_noremoteconfig_txt">Отсутствует удаленная конфигурация</string>
+    <string name="contype_nointernet_txt">Отсутствует соединение с интернетом</string>
+    <string name="contype_veranotfound_txt">Не найдено устройство Vera</string>
+    <string name="contype_vera_localy_txt">Найдено локальное устройство Vera</string>
+    <string name="contype_veraremote_txt">Найдено удаленное устройство Vera</string>
+    <string name="contype_badlogin_txt">Неверный логин или пароль.</string>
+    
+    <!-- TASKS RESPONSES -->
+    <string name="task_switch_turnon">Включить</string>
+    <string name="task_switch_turnoff">Выключить</string>
+    <string name="task_switch_setto_1">Включить</string>
+    <string name="task_switch_setto_0">Выключить</string>    
+    
+    <string name="task_dim_setto">Установить</string>
+    
+    <string name="task_runscene">Запустить сцену</string>
+    
+    <string name="task_securitySensor_setto_1">Актив.</string>
+    <string name="task_securitySensor_setto_0">Деактив.</string>
+    
+    <string name="task_lock_setto_1">Закрыть</string>
+    <string name="task_lock_setto_0">Открыть</string>
+    
+    <string name="task_danfoss_setto">Установить</string>
+
+    <string name="task_windowCover_setto">Установить</string>
+    <string name="task_windowCover_setto_up">Вверх</string>
+    <string name="task_windowCover_setto_down">Вниз</string>
+    <string name="task_windowCover_setto_stop">Стоп</string>
+    
+    <string name="task_hvacMode_setto_auto">Авто-режим</string>
+    <string name="task_hvacMode_setto_off">Выключить</string>
+    <string name="task_hvacMode_setto_heat">Обогрев</string>
+    <string name="task_hvacMode_setto_cool">Охлаждение</string>
+    <string name="task_hvacTemp_setto_heat">Темп. обогрева</string>
+    <string name="task_hvacTemp_setto_cool">Темп. охлаждения</string>
+    <string name="task_fanMode_setto_auto">Режим обдува - авто</string>
+    <string name="task_fanMode_setto_on">Включить обдув</string>
+    <string name="task_fanMode_setto_cycle">Режим обдува - цикл</string>
+    <string name="task_ecoMode_setto_cycle">Эко-режим</string>         
+<!-- ASTRONOMIC MODULE -->
+
+<string name="astronomic_nodata">нет данных</string>
+    
+    <!-- DESCRIPTION STRINGS. DO NOT TRANSLATE -->    
+    <string name="tlo_astronomic">tlo_astronomic</string>    
+    <string name="astronomic_icon_active">astronomic_icon_active</string>
+    <string name="sun_icon">sun_icon</string>    
+    <string name="moon_icon">moon_icon</string>   
+    <string name="child_bckg">child_bckg</string>   
+    <string name="blind_icon">blind_icon</string>   
+    <string name="camera_icon">camera_icon</string>
+    <string name="gears_icon">gears_icon</string>    
+    <string name="chronos_icon">chronos_icon</string>    
+    <string name="hash_icon">hash_icon</string>    
+    <string name="star_icon">star_icon</string>    
+    <string name="up_icon">up_icon</string>
+    <string name="danfoss_icon">danfoss_icon</string>   
+    <string name="dimmer_icon">dimmer_icon</string>   
+    <string name="door_icon">door_icon</string>   
+    <string name="dis_icon">dis_icon</string>
+    <string name="humi_sensor_icon">humi_sensor_icon</string>
+    <string name="light_sensor_icon">light_sensor_icon</string>
+    <string name="lock_icon">lock_icon</string>
+    <string name="move_icon">move_icon</string>
+    <string name="power_icon">power_icon</string>
+    <string name="scene_icon">scene_icon</string>
+    <string name="smoke_icon">smoke_icon</string>
+    <string name="fire_icon">fire_icon</string>
+    <string name="sunpos_icon">sunpos_icon</string>
+    <string name="angle_icon">angle_icon</string>
+    <string name="azimuth_icon">azimuth_icon</string>
+    <string name="switch_icon">switch_icon</string>
+    <string name="on_icon">on_icon</string>
+    <string name="temp_sens_icon">temp_sens_icon</string>
+    <string name="thermostat_icon">thermostat_icon</string>
+    <string name="wheather_icon">wheather_icon</string>
+    <string name="window_cover_icon">window_cover_icon</string>
+    <string name="window_icon">window_icon</string>
+    <string name="window_bckg">window_bckg</string>
+    <string name="room_icon">room_icon</string>
+    <string name="window_shutter_btn">window_shutter_btn</string>
+    <string name="login_smarthome">login_smarthome</string>
+    <string name="login_zhouse_logo">login_zhouse_logo</string>
+    <string name="toast_icon">toast_icon</string>
+    <string name="top_icon">top_icon</string>
+    <string name="navigator">navigator_graphics</string>
+    <string name="login_user_img">login_user_img</string>
+    <string name="login_pass_img">login_pass_img</string>
+    <string name="camera_img">camera_img</string>
+    
+    
+    <string name="settings_room_icon">settings_room_icon</string>
+    
+    <!-- Configuration and service strings -->
+    
+    <string name="users_menu_txt">Пользователи</string>
+    <string name="settings_menu_txt">Дополнительно</string>
+    
+    <string name="settings_choose_vera">Выбор сервера</string>
+    <string name="Settings_ok">ОК</string>
+    <string name="Settings_cancel">Отмена</string>
+    
+    <string name="settings_setvera_txt">Сменить сервер</string>
+        
+    <string name="inline_preferences">Настройки</string>
+    <string name="settings_window_name">Настройка сервера</string>
+    <string name="advanced_settings_window_name">Дополнительно</string>
+    
+    <string name="local_settings">Локальное соединение</string>    
+    <string name="ipaddress_settings_txt">IP адрес</string>    
+    <string name="ipaddress_settings_desc">IP адрес сервера в локальной сети</string>    
+    <string name="findip_settings_txt">Автоматическая настройка</string>
+    <string name="findip_settings_desc">Получить настройки автоматически (требует соединение с интернетом)</string>
+    
+    <string name="remote_settings">Удаленное соединение</string> 
+    <string name="username_settings_txt">Логин</string>    
+    <string name="username_settings_desc">Логин Mios</string>    
+    <string name="password_settings_txt">Пароль</string>    
+    <string name="password_settings_desc">Пароль Mios</string>
+
+    <string name="veranumber_settings_txt">Номер сервера</string>    
+    <string name="veranumber_settings_desc">Номер можно найти на корпусе сервера</string>    
+    <string name="servers_settings_txt">Fwd1, Fwd2</string>
+    <string name="servers_settings_desc">Служебные серверы Mios</string>
+    <string name="portnumber_settings_txt">Порт</string>    
+    <string name="portnumber_settings_desc">Номер порта (по-умолчанию: 3480).</string>
+    
+    <!-- VOICE COMMANDS -->
+    
+    <string name="voice_turn_on">turn on</string>
+    <string name="voice_turn_off">turn off</string>
+
+    <string name="voice_window_cover_close">close</string>
+    <string name="voice_window_cover_open">open</string>
+    <string name="voice_window_cover_stop">stop</string>
+    <string name="voice_window_cover_stop2">stop</string>
+    
+    <!-- LICENSING -->
+    <string name="license_error">ошибка лицензии</string>
+    <string name="no_license">У вас нет лицензии на использование данной программы.\nВы можете приобрести данное приложение в Google Play ;)</string>
+    
+</resources>

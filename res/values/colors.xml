@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <color name="transparent_color">#00000000</color>
+       
+       <!-- THERMOSTAT WINDOW -->
+       <color name="zhouse_green">#FFA7C739</color>
+       <color name="zhouse_green_light">#BBA7C739</color>
+       <color name="zhouse_text_solid_white">#FFFFFFFF</color>
+       <color name="zhouse_bckg_light_grey">#FFD5D6DB</color>
+       <color name="zhouse_bckg_light_grey_checked">#AAD5D6DB</color>
+       <color name="zhouse_radiogrup_separator">#FFFFFFFF</color>
+       <color name="zhouse_roomlist_text_color">#FF989898</color>
+       
+       <!-- DIMMER WINDOW -->
+       <color name="window_dimmer_seekbar_bckg">#AAd5d6db</color>
+       <color name="window_dimmer_seekbar_progress">#BBA7C739</color>
+       <color name="window_dimmer_seekbar_secondary_progress">#BBA7C739</color>
+       
+       <!-- CHANGE SERVERS WINDOW --> 
+       <color name="options_change_server_topbaner_bckg">#FFA7C739</color>
+	   <color name="option_serverChange_servername_text">#FFA7C739</color>
+	   <color name="option_serverChange_servernumber_text">#FF8E8E8E</color>
+	   
+	   <!-- CHANGE USER WINDOW -->
+       <color name="options_change_user_wdw_bckg">#FFACCD55</color>
+       <color name="options_login_edittext_bckg">#AAD5D6DB</color>
+	   
+       
+       
+</resources>

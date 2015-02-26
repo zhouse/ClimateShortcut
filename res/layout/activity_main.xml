@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/deviceLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="888dp"
+    android:background="#00ffffff"
+    android:gravity="end"
+   >
+
+    
+	<RelativeLayout 
+	   
+	    android:layout_width="500dp"
+	    android:layout_height="fill_parent"
+	    android:paddingLeft="10dp"
+	    android:background="#00ffff00"
+	    android:paddingBottom="40dip" >
+	
+	    <ListView
+	        android:id="@+id/listView1"
+	        android:layout_width="400dp"
+	        android:layout_height="match_parent"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true" 
+	        android:divider="#ffffffff"
+	        android:background="#e9e9e9"
+	        android:layout_marginRight="200dp"
+	        android:layout_marginTop="14dp"
+	        >
+	 
+	    </ListView>
+	    
+	     <ImageView
+	        android:id="@+id/imageState"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:contentDescription="@string/contentDescription"
+	        android:layout_marginRight="87dp"
+	        android:layout_marginTop="28dp"
+	        android:src="@drawable/room_active_arrow"
+	        />
+	
+	</RelativeLayout>
+</LinearLayout>

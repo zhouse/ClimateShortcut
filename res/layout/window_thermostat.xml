@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>       
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="365dip"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/rounded_shape_white" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/window_dimmer_text_shape"
+        android:paddingLeft="15dip"
+        android:singleLine="true"
+        android:textColor="@color/zhouse_text_solid_white"
+        android:textSize="22dip" />
+
+    <ToggleButton
+        android:id="@+id/ecoMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:layout_marginRight="90dip"
+        android:textSize="8dip"
+        android:textOn="ECO\nMODE"
+        android:textOff=""
+        android:layout_alignParentRight="true"
+		android:background="@drawable/radio_thermostat_ecomode"
+        android:src="@drawable/thermostat_icon_active" />
+    
+    <TextView
+        android:id="@+id/thermostat_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+		android:layout_marginRight="5dip"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textColor="@color/zhouse_green"
+        android:textSize="35dip"/>
+    
+    
+    <ImageView
+        android:id="@+id/deviceIcon"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/dimmer_icon"
+        android:gravity="center_vertical"
+        android:src="@drawable/thermostat_icon_active" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dip"
+        android:layout_marginTop="58dip"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/thermostat_heat_plus"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/window_thermostat_button_plus"
+            android:text="@string/window_danfoss_plus"
+            android:textColor="@color/zhouse_text_solid_white"
+            android:textSize="30dip" />
+        
+        <TextView
+            android:id="@+id/thermostat_heat_txt"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:singleLine="true"
+            android:textColor="@color/zhouse_green"
+            android:textSize="30dip" />
+
+        <Button
+            android:id="@+id/thermostat_heat_minus"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/window_thermostat_button_minus"
+            android:text="@string/window_danfoss_minus"
+            android:textColor="@color/zhouse_text_solid_white"
+            android:textSize="30dip" />
+
+        <TextView
+            android:id="@+id/heat_txt"
+            android:layout_width="75dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="3dip"
+            android:singleLine="true"
+            android:text="@string/window_thermostat_heat"
+            android:textColor="@color/zhouse_green"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dip"
+        android:layout_marginTop="58dip"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/thermostat_cool_plus"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/window_thermostat_button_plus"
+            android:text="@string/window_danfoss_plus"
+            android:textColor="@color/zhouse_text_solid_white"
+            android:textSize="30dip" />
+
+        <TextView
+            android:id="@+id/thermostat_cool_txt"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dip"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:singleLine="true"
+            android:textColor="@color/zhouse_green"
+            android:textSize="30dip"/>
+
+        <Button
+            android:id="@+id/thermostat_cool_minus"
+            android:layout_width="60dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/window_thermostat_button_minus"
+            android:text="@string/window_danfoss_minus"
+            android:textColor="@color/zhouse_text_solid_white"
+            android:textSize="30dip" />
+
+        <TextView
+            android:id="@+id/cool_txt"
+            android:layout_width="75dip"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="3dip"
+            android:singleLine="true"
+            android:text="@string/window_thermostat_cool"
+            android:textColor="@color/zhouse_green"
+            android:textSize="13dip" />
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="58dip"
+        android:orientation="vertical" > 
+    
+		    <RadioGroup
+		        android:id="@+id/radioGroupHeat"
+		        android:layout_width="100dip"
+		        android:layout_height="wrap_content">
+		
+		        <RadioButton
+		            android:id="@+id/radio_mode_auto"
+		            android:layout_width="fill_parent"
+		            android:layout_height="33dip"
+		            android:textSize="18dip"
+		            android:gravity="center_horizontal|center_vertical"
+		            android:textColor="@drawable/window_thermostat_radioitem_textcolor"
+		            android:button="@null"
+		            android:background="@drawable/window_thermostat_radioitem_top"
+		            android:text="@string/window_thermostat_mode_auto" />
+		        
+		        <RadioButton
+		            android:id="@+id/radio_mode_heat"
+		            android:layout_width="fill_parent"
+		            android:layout_height="33dip"
+		            android:textSize="18dip"
+		            android:gravity="center_horizontal|center_vertical"
+		            android:textColor="@drawable/window_thermostat_radioitem_textcolor"
+		            android:button="@null"
+		            android:background="@drawable/window_thermostat_radioitem"
+		            android:text="@string/window_thermostat_mode_heat" />
+		
+		        <RadioButton
+		            android:id="@+id/radio_mode_cool"
+		            android:layout_width="fill_parent"
+		            android:layout_height="33dip"
+		            android:textSize="18dip"
+		            android:gravity="center_horizontal|center_vertical"
+		            android:textColor="@drawable/window_thermostat_radioitem_textcolor"
+		            android:button="@null"
+		            android:background="@drawable/window_thermostat_radioitem"
+		            android:text="@string/window_thermostat_mode_cool" />
+		        
+		        <RadioButton
+		            android:id="@+id/radio_mode_off"
+		            android:layout_width="fill_parent"
+		            android:layout_height="32dip"
+		            android:textSize="18dip"
+		            android:gravity="center_horizontal|center_vertical"
+		            android:textColor="@drawable/window_thermostat_radioitem_textcolor"
+		            android:button="@null"
+		            android:background="@drawable/window_thermostat_radioitem_bottom"
+		            android:text="@string/window_thermostat_mode_off" />
+		        
+		    </RadioGroup>
+		    		    		    
+	        <TextView
+	            android:id="@+id/mode_txt"
+	            android:layout_width="100dip"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal"
+	            android:paddingTop="3dip"
+	            android:singleLine="true"
+	            android:text="@string/window_thermostat_mode"
+	            android:textColor="@color/zhouse_green"
+	            android:textSize="13dip" />
+
+		</LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dip"
+        android:layout_marginTop="58dip"
+        android:orientation="vertical" > 
+    
+		    <RadioGroup
+		        android:id="@+id/radioGroupFan"
+		        android:layout_width="100dip"
+		        android:layout_height="wrap_content">
+		
+		        <RadioButton
+		            android:id="@+id/radio_fan_auto"
+		            android:layout_width="fill_parent"
+		            android:layout_height="44dip"
+		            android:textSize="18dip"
+		            android:gravity="center_horizontal|center_vertical"
+		            android:textColor="@drawable/window_thermostat_radioitem_textcolor"
+		            android:button="@null"
+		            android:background="@drawable/window_thermostat_radioitem_top"
+		            android:text="@string/window_thermostat_fanmode_auto" />
+		        
+		        <RadioButton
+		            android:id="@+id/radio_fan_on"
+		            android:layout_width="fill_parent"
+		            android:layout_height="43dip"
+		            android:textSize="18dip"
+		            android:gravity="center_horizontal|center_vertical"
+		            android:textColor="@drawable/window_thermostat_radioitem_textcolor"
+		            android:button="@null"
+		            android:background="@drawable/window_thermostat_radioitem"
+		            android:text="@string/window_thermostat_fanmode_on" />
+		
+		        <RadioButton
+		            android:id="@+id/radio_fan_cycle"
+		            android:layout_width="fill_parent"
+		            android:layout_height="44dip"
+		            android:textSize="18dip"
+		            android:gravity="center_horizontal|center_vertical"
+		            android:textColor="@drawable/window_thermostat_radioitem_textcolor"
+		            android:button="@null"
+		            android:background="@drawable/window_thermostat_radioitem_bottom"
+		            android:text="@string/window_thermostat_fanmode_cycle" />
+		    </RadioGroup>
+		    		    		    
+	        <TextView
+	            android:id="@+id/fanmode_txt"
+	            android:layout_width="100dip"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal"
+	            android:paddingTop="3dip"
+	            android:singleLine="true"
+	            android:text="@string/window_thermostat_fanmode"
+	            android:textColor="@color/zhouse_green"
+	            android:textSize="13dip" />
+
+		</LinearLayout>
+		
+    <Button
+        android:id="@+id/danfoss_set"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="220dip"
+        android:background="@drawable/window_danfoss_button"
+        android:text="@string/window_danfoss_set"
+        android:textColor="@color/zhouse_text_solid_white" />
+</RelativeLayout>

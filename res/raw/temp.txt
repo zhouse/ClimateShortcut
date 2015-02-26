@@ -1,0 +1,103 @@
+	static final int CAT_DIMMABLE_LIGHT=2;
+	static final int CAT_SWITCH=3;
+	static final int CAT_SECURITY_SENSOR=4;
+	static final int CAT_CAMERA=6;
+	static final int CAT_WINDOW_COVERING=8;
+	static final int CAT_IR_TRANSMITTER=10;
+	static final int CAT_HUMIDITY_SENSOR=16;
+	static final int CAT_TEMPERATURE_SENSOR=17;
+	static final int CAT_LIGHT_SENSOR=18;
+	static final int CAT_SCENE=256;
+	static final int CAT_CHRONOS=257;
+	static final int CAT_ASTRONOMIC=262;
+	static final int CAT_SUNPOS=263;
+	static final int CAT_WEATHER=258;
+	static final int CAT_DANFOSS=259;
+		
+	//ADDED
+	{ "name": "Œciemniacz", "altid": "76", "id": 63, "category": 2, "subcategory": 0, "room": 0, "parent": 1, "status": "0", "level": "0", "watts": "0", "kwh": "0", "state": 2, "comment": "_Dimmable Light: Unable to get any information on node" }, 
+	{ "name": "Prze³¹cznik", "altid": "73", "id": 57, "category": 3, "subcategory": 0, "room": 0, "parent": 1, "status": "1", "state": 2, "comment": "_Appliance Module: Unable to get any information on node" }, 
+	{ "name": "Czujnik ruchu", "altid": "75", "id": 62, "category": 4, "subcategory": 3, "room": 0, "parent": 1, "tripped": "0" },
+	{ "name": "Kamera", "altid": "", "id": 17, "category": 6, "subcategory": 0, "room": 3, "parent": 0, "ip": "www.ssec.wisc.edu", "streaming": "\/nphMotionJpeg?Resolution=640x480&Quality=Clarity", "url": "data\/geo\/met-prime\/latest_met-prime_09_fd.jpg" }, 
+	{ "name": "SQ-Blaster", "altid": "", "id": 26, "category": 10, "room": 3, "parent": 0, "ip": "192.168.1.222" },	
+	{ "name": "Wilgotnosc", "altid": "Weather-Current-Humidity", "id": 13, "category": 16, "subcategory": 0, "room": 3, "parent": 9, "humidity": "82" }, 	
+	{ "name": "Temperatura", "altid": "Weather-Current-Temperature", "id": 10, "category": 17, "subcategory": 0, "room": 3, "parent": 9, "temperature": "14" }, 	
+	{ "name": "Poziom œwiat³a", "altid": "e2", "id": 40, "category": 18, "room": 2, "parent": 38, "status": "1", "tripped": "0", "light": "7" },
+	{ "name": "Chronos", "altid": "", "id": 42, "category": 0, "subcategory": -1, "room": 1, "parent": 0 }, 
+	{ "name": "Astronomia", "altid": "", "id": 20, "category": 0, "subcategory": -1, "room": 4, "parent": 0, "sunrise": "1328596609", "sunset": "1328630153", "sunrise_HUF": "2012-02-07 07:36:49", "sunset_HUF": "2012-02-07 16:55:53", "civiltwilightbegin": "1328594371", "civiltwilightend": "1328632387", "civiltwilightbegin_HUF": "2012-02-07 06:59:31", "civiltwilightend_HUF": "2012-02-07 17:33:07", "nauticaltwilightbegin": "1328591881", "nauticaltwilightend": "1328634874", "nauticaltwilightbegin_HUF": "2012-02-07 06:18:01", "nauticaltwilightend_HUF": "2012-02-07 18:14:34", "astronomicaltwilightbegin": "1328589450", "astronomicaltwilightend": "1328637303", "astronomicaltwilightbegin_HUF": "2012-02-07 05:37:30", "astronomicaltwilightend_HUF": "2012-02-07 18:55:03", "moonrise": "", "moonset": "", "moonrise_HUF": "", "moonset_HUF": "", "message": "Sun_: 07:36:49 16:55:53 Moon: __:__:__ __:__:__", "DAD_USNO_MOON1_URL": "http:\/\/aa.usno.navy.mil\/cgi-bin\/aa_rstablew.pl?FFX=2&xxy=2012&type=1&place=&xx0=1&xx1=14&xx2=35&yy0=1&yy1=53&yy2=25&zz0=1&zz1=1&ZZZ=END", "moonilluminationmidnight": "", "DAD_USNO_MOON2_URL": "http:\/\/aa.usno.navy.mil\/cgi-bin\/aa_moonill2.pl?&xxy=2012&time=00&zone=01&ZZZ=END", "moonilluminationnoon": "", "DAD_USNO_MOON3_URL": "http:\/\/aa.usno.navy.mil\/cgi-bin\/aa_moonill2.pl?&xxy=2012&time=12&zone=01&ZZZ=END", "doseratestationURL": "http:\/\/odlinfo.bfs.de\/cvdata\/130620331.html", "doseratestationlocation": "nil", "doseratestationheight": "nil", "doseratecosmical": "nil", "doserateterrestrial": "nil", "doserate2hthreshold": "nil", "doseratetotal": "0", "doseratetotalwarning": "0", "earthquakesrc": "", "earthquakeID": "766118", "earthquakeversion": "", "earthquakedateutc": "2012-02-18T10:48:04", "earthquakelatitude": "38.981", "earthquakelongitude": "27.342", "earthquakemagnitude": "2.8", "earthquakedepth": "4.4", "earthquakeNST": "", "earthquakeregion": "WESTERN TURKEY", "earthquakedate": "1329562084", "earthquakedate_HUF": "2012-02-18 11:48:04", "earthquakemapURL": "<a href=\"http:\/\/maps.google.com\/maps?q=38.981,27.342&z=8\">Map<\/a>", "earthquakedistance": "1875", "EarthquakeRawData": "<table border=1><tr><td>Src<\/td><td>Eqid<\/td><td>Version<\/td><td>Datetime<\/td><td>Lat<\/td><td>Lon<\/td><td>Magnitude<\/td><td>Depth<\/td><td>NST<\/td><td>Region\r<\/td><\/tr><tr><td>nc<\/td><td>71737821<\/td><td>0<\/td><td>Saturday&#44; February 18&#44; 2012 12:27:16 UTC<\/td><td>38.8355<\/td><td>-122.8008<\/td><td>0.4<\/td><td>1.90<\/td><td>13<\/td><td>Northern California\r<\/td><\/tr><tr><td>ak<\/td><td>10416314<\/td><td>1<\/td><td>Saturday&#44; February 18&#44; 2012 12:26:47 UTC<\/td><td>63.7625<\/td><td>-150.8763<\/td><td>1.4<\/td><td>13.70<\/td><td> 8<\/td><td>Central Alaska\r<\/td><\/tr><tr><td>nc<\/td><td>71737796<\/td><td>0<\/td><td>Saturday&#44; February 18&#44; 2012 12:19:02 UTC<\/td><td>36.9015<\/td><td>-121.4858<\/td><td>1.1<\/td><td>5.90<\/td><td>18<\/td><td>Central California\r<\/td><\/tr><tr><td>nc<\/td><td>71737791<\/td><td>0<\/td><td>Saturday&#44; February 18&#44; 2012 12:07:58 UTC<\/td><td>38.7880<\/td><td>-122.7497<\/td><td>0.5<\/td><td>3.10<\/td><td> 7<\/td><td>Northern California\r<\/td><\/tr><tr><td>nn<\/td><td>00368791<\/td><td>8<\/td><td>Saturday&#44; February 18&#44; 2012 12:01:53 UTC<\/td><td>38.0387<\/td><td>-116.8025<\/td><td>1.5<\/td><td>7.60<\/td><td>12<\/td><td>Nevada\r<\/td><\/tr><tr><td>ci<\/td><td>11068557<\/td><td>0<\/td><td>Saturday&#44; February 18&#44; 2012 11:42:37 UTC<\/td><td>36.1102<\/td><td>-118.1753<\/td><td>1.7<\/td><td>0.10<\/td><td> 9<\/td><td>Central California\r<\/td><\/tr><tr><td>nc<\/td><td>71737781<\/td><td>0<\/td><td>Saturday&#44; February 18&#44; 2012 11:33:23 UTC<\/td><td>38.8405<\/td><td>-122.8372<\/td><td>0.5<\/td><td>2.20<\/td><td> 9<\/td><td>Northern California\r<\/td><\/tr><tr><td><\/td><\/tr><\/table>", "lastastronomicalevent": "SunTwilightAstronomicalEnd" }, 
+	{ "name": "Pozycja slonca", "altid": "", "id": 35, "category": 0, "subcategory": -1, "room": 4, "parent": 0, "ra": "-39.03426372079", "dec": "-15.270639645547", "az": "-27.13701575233", "alt": "-48.767055191101" }, 
+	{ "name": "G³owica Danfoss", "altid": "83", "id": 20, "category": 5, "subcategory": 2, "room": 0, "parent": 1, "heatsp": "21", "batterylevel": "1" }, 
+	{ "name": "Pogoda na dzis", "altid": "", "id": 9, "category": 0, "subcategory": -1, "room": 3, "parent": 0, "condition": "Mostly Cloudy", "windcondition": "SW at 14 mph" }, 
+
+	//NOT ADDED
+	static final int CAT_HVAC=5;
+	static final int CAT_DOOR_LOCK=7;
+	static final int CAT_REMOTE_CONTROL=9;
+	static final int CAT_POWER_METER=21;
+	static final int CAT_ALARM_PANEL=22;
+	static final int CAT_ALARM_PARTITION=23;
+
+	//ZHOUSE CATEGORIES
+	
+	static final int CAT_SHUTTER=260;
+	static final int CAT_WINDOW=261;
+	static final int CAT_MOVESENSE=264;
+	static final int CAT_DOORSENSE=265;
+	static final int CAT_SMOKE_DETECTOR=266;
+
+[{ 
+	"full": 1, 
+	"version": "*1.5.236*", 
+	"model": "SERCOMM NA401", 
+	"zwave_heal": 1, 
+	"temperature": "C", 
+	"serial_number": "20183\n", 
+	"fwd1": "fwd1.mios.com", 
+	"fwd2": "fwd2.mios.com", 
+	"sections": 
+		[ 
+			{"name": "My Home",	"id": 1} 
+		], 
+	"rooms": 
+		[ 
+			{"name": "Astronomia","id": 4, "section": 1}, 
+			{"name": "Biuro Zhouse","id": 1, "section": 1}, 
+			{"name": "Under development","id": 5,"section": 1} 
+		], 
+	"scenes": 
+		[ 
+			{"active": 1,"name": "Wlacz swiatlo","id": 1,"room": 1}, 
+			{"active": 0,"name": "Wylacz swiatlo","id": 2,"room": 1} 
+		], 
+	"devices": 
+		[
+			{ "name": "Œciemniacz", "altid": "76", "id": 63, "category": 2, "subcategory": 0, "room": 1, "parent": 1, "status": "0", "level": "0", "watts": "0", "kwh": "0", "state": 2, "comment": "_Dimmable Light: Unable to get any information on node" }, 
+			{ "name": "Prze³¹cznik", "altid": "73", "id": 57, "category": 3, "subcategory": 0, "room": 1, "parent": 1, "status": "1", "state": 2, "comment": "_Appliance Module: Unable to get any information on node" }, 
+			{ "name": "Czujnik ruchu", "altid": "75", "id": 62, "category": 4, "subcategory": 3, "room": 1, "parent": 1, "tripped": "0" },
+			{ "name": "Kamera", "altid": "", "id": 17, "category": 6, "subcategory": 0, "room": 1, "parent": 0, "ip": "www.ssec.wisc.edu", "streaming": "\/nphMotionJpeg?Resolution=640x480&Quality=Clarity", "url": "data\/geo\/met-prime\/latest_met-prime_09_fd.jpg" }, 
+			{ "name": "SQ-Blaster", "altid": "", "id": 26, "category": 10, "room": 1, "parent": 0, "ip": "192.168.1.222" },	
+			{ "name": "Wilgotnosc", "altid": "Weather-Current-Humidity", "id": 13, "category": 16, "subcategory": 0, "room": 1, "parent": 9, "humidity": "82" }, 	
+			{ "name": "Temperatura", "altid": "Weather-Current-Temperature", "id": 10, "category": 17, "subcategory": 0, "room": 1, "parent": 9, "temperature": "14" }, 	
+			{ "name": "Poziom œwiat³a", "altid": "e2", "id": 40, "category": 18, "room": 1, "parent": 38, "status": "1", "tripped": "0", "light": "7" },
+			{ "name": "Chronos", "altid": "", "id": 42, "category": 0, "subcategory": -1, "room": 1, "parent": 0 }, 
+			{ "name": "Astronomia", "altid": "", "id": 20, "category": 0, "subcategory": -1, "room": 1, "parent": 0, "sunrise": "1328596609", "sunset": "1328630153", "sunrise_HUF": "2012-02-07 07:36:49", "sunset_HUF": "2012-02-07 16:55:53", "civiltwilightbegin": "1328594371", "civiltwilightend": "1328632387", "civiltwilightbegin_HUF": "2012-02-07 06:59:31", "civiltwilightend_HUF": "2012-02-07 17:33:07", "nauticaltwilightbegin": "1328591881", "nauticaltwilightend": "1328634874", "nauticaltwilightbegin_HUF": "2012-02-07 06:18:01", "nauticaltwilightend_HUF": "2012-02-07 18:14:34", "astronomicaltwilightbegin": "1328589450", "astronomicaltwilightend": "1328637303", "astronomicaltwilightbegin_HUF": "2012-02-07 05:37:30", "astronomicaltwilightend_HUF": "2012-02-07 18:55:03", "moonrise": "", "moonset": "", "moonrise_HUF": "", "moonset_HUF": "", "message": "Sun_: 07:36:49 16:55:53 Moon: __:__:__ __:__:__", "DAD_USNO_MOON1_URL": "http:\/\/aa.usno.navy.mil\/cgi-bin\/aa_rstablew.pl?FFX=2&xxy=2012&type=1&place=&xx0=1&xx1=14&xx2=35&yy0=1&yy1=53&yy2=25&zz0=1&zz1=1&ZZZ=END", "moonilluminationmidnight": "", "DAD_USNO_MOON2_URL": "http:\/\/aa.usno.navy.mil\/cgi-bin\/aa_moonill2.pl?&xxy=2012&time=00&zone=01&ZZZ=END", "moonilluminationnoon": "", "DAD_USNO_MOON3_URL": "http:\/\/aa.usno.navy.mil\/cgi-bin\/aa_moonill2.pl?&xxy=2012&time=12&zone=01&ZZZ=END", "doseratestationURL": "http:\/\/odlinfo.bfs.de\/cvdata\/130620331.html", "doseratestationlocation": "nil", "doseratestationheight": "nil", "doseratecosmical": "nil", "doserateterrestrial": "nil", "doserate2hthreshold": "nil", "doseratetotal": "0", "doseratetotalwarning": "0", "earthquakesrc": "", "earthquakeID": "766118", "earthquakeversion": "", "earthquakedateutc": "2012-02-18T10:48:04", "earthquakelatitude": "38.981", "earthquakelongitude": "27.342", "earthquakemagnitude": "2.8", "earthquakedepth": "4.4", "earthquakeNST": "", "earthquakeregion": "WESTERN TURKEY", "earthquakedate": "1329562084", "earthquakedate_HUF": "2012-02-18 11:48:04", "earthquakemapURL": "<a href=\"http:\/\/maps.google.com\/maps?q=38.981,27.342&z=8\">Map<\/a>", "earthquakedistance": "1875", "EarthquakeRawData": "<table border=1><tr><td>Src<\/td><td>Eqid<\/td><td>Version<\/td><td>Datetime<\/td><td>Lat<\/td><td>Lon<\/td><td>Magnitude<\/td><td>Depth<\/td><td>NST<\/td><td>Region\r<\/td><\/tr><tr><td>nc<\/td><td>71737821<\/td><td>0<\/td><td>Saturday&#44; February 18&#44; 2012 12:27:16 UTC<\/td><td>38.8355<\/td><td>-122.8008<\/td><td>0.4<\/td><td>1.90<\/td><td>13<\/td><td>Northern California\r<\/td><\/tr><tr><td>ak<\/td><td>10416314<\/td><td>1<\/td><td>Saturday&#44; February 18&#44; 2012 12:26:47 UTC<\/td><td>63.7625<\/td><td>-150.8763<\/td><td>1.4<\/td><td>13.70<\/td><td> 8<\/td><td>Central Alaska\r<\/td><\/tr><tr><td>nc<\/td><td>71737796<\/td><td>0<\/td><td>Saturday&#44; February 18&#44; 2012 12:19:02 UTC<\/td><td>36.9015<\/td><td>-121.4858<\/td><td>1.1<\/td><td>5.90<\/td><td>18<\/td><td>Central California\r<\/td><\/tr><tr><td>nc<\/td><td>71737791<\/td><td>0<\/td><td>Saturday&#44; February 18&#44; 2012 12:07:58 UTC<\/td><td>38.7880<\/td><td>-122.7497<\/td><td>0.5<\/td><td>3.10<\/td><td> 7<\/td><td>Northern California\r<\/td><\/tr><tr><td>nn<\/td><td>00368791<\/td><td>8<\/td><td>Saturday&#44; February 18&#44; 2012 12:01:53 UTC<\/td><td>38.0387<\/td><td>-116.8025<\/td><td>1.5<\/td><td>7.60<\/td><td>12<\/td><td>Nevada\r<\/td><\/tr><tr><td>ci<\/td><td>11068557<\/td><td>0<\/td><td>Saturday&#44; February 18&#44; 2012 11:42:37 UTC<\/td><td>36.1102<\/td><td>-118.1753<\/td><td>1.7<\/td><td>0.10<\/td><td> 9<\/td><td>Central California\r<\/td><\/tr><tr><td>nc<\/td><td>71737781<\/td><td>0<\/td><td>Saturday&#44; February 18&#44; 2012 11:33:23 UTC<\/td><td>38.8405<\/td><td>-122.8372<\/td><td>0.5<\/td><td>2.20<\/td><td> 9<\/td><td>Northern California\r<\/td><\/tr><tr><td><\/td><\/tr><\/table>", "lastastronomicalevent": "SunTwilightAstronomicalEnd" }, 
+			{ "name": "Pozycja slonca", "altid": "", "id": 35, "category": 0, "subcategory": -1, "room": 1, "parent": 0, "ra": "-39.03426372079", "dec": "-15.270639645547", "az": "-27.13701575233", "alt": "-48.767055191101" }, 
+			{ "name": "G³owica Danfoss", "altid": "83", "id": 20, "category": 5, "subcategory": 2, "room": 0, "parent": 1, "heatsp": "21", "batterylevel": "1" }, 
+			{ "name": "Pogoda na dzis", "altid": "", "id": 9, "category": 0, "subcategory": -1, "room": 1, "parent": 0, "condition": "Mostly Cloudy", "windcondition": "SW at 14 mph" }		
+		], 
+	"categories": 
+		[ 
+			{ "name": "Dimmable Light", "id": 2 }, 
+			{ "name": "Switch", "id": 3 }, 
+			{ "name": "Sensor", "id": 4 }, 
+			{ "name": "Camera", "id": 6 }, 
+			{ "name": "Scene Controller", "id": 14 }, 
+			{ "name": "Humidity Sensor", "id": 16 }, 
+			{ "name": "Temperature Sensor", "id": 17 } 
+		], 
+	"irtx": "", 
+	"loadtime": 1328651621, 
+	"dataversion": 651621257, 
+	"state": 2, 
+	"comment": "Ergy[65]: Startup Lua Failed" 
+}]

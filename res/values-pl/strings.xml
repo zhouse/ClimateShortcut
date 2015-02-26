@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, VeramenagerActivity!</string>
+    <string name="app_name">Zhouse</string>
+    <string name="no_item">No item</string>
+    <string name="expandable_list_sample_action">Sample action</string>
+
+    <string name="login_description">Zaloguj się</string>
+    <string name="login_username">użytkownik</string>
+    <string name="login_password">hasło</string>
+    <string name="login_ipaddress">adres ip</string>
+    <string name="login_button">Zaloguj</string>
+    <string name="login_button_local">Lokalnie</string>    
+    <string name="change_room_icon_txt">Zmień ikonę</string>
+    <string name="change_room_icon_for_txt">Zmień ikonę dla</string>
+    <string name="login_user_pass_missing">Wprowadź nazwę \n użytkownika i hasło</string>
+    <string name="login_user_missing">Wprowadź nazwę użytkownika</string>
+    <string name="login_pass_missing">Wprowadź hasło</string>
+    <string name="login_looking_vera_msg">Szukam serwera</string>
+    <string name="login_server_found_remote">Znaleziono serwer \n poprzez połączenie zdalne</string>
+    <string name="login_server_found_local">Znaleziono serwer \n w sieci lokalnej</string>
+    <string name="login_server_notfound">Nie znaleziono serwera. Sprawdz \npołączenie z internetem oraz \ndane logowania.</string>
+    
+    <string name="no_room_name">Bez pomieszczenia</string>
+
+    <!-- DEVICE WINDOWS STRINGS -->
+    
+    <string name="window_dimmer_set_on">WŁĄCZ</string>
+    <string name="window_dimmer_set_off">WYŁĄCZ</string>
+
+    <string name="window_danfoss_set">USTAW</string>
+    <string name="window_danfoss_plus">+</string>
+    <string name="window_danfoss_minus">-</string>
+    
+    <string name="window_windowcover_open">OTWÓRZ</string>
+    <string name="window_windowcover_stop">STOP</string>
+    <string name="window_windowcover_close">ZAMKNIJ</string>
+    
+    <string name="window_thermostat_heat">grzanie</string>
+    <string name="window_thermostat_cool">chłodzenie</string>
+    
+    <string name="window_thermostat_mode">termostat</string>
+    <string name="window_thermostat_fanmode">wentylacja</string>
+    
+    <string name="window_thermostat_mode_off">wyłącz</string>
+    <string name="window_thermostat_mode_cool">chłodzenie</string>
+    <string name="window_thermostat_mode_heat">grzanie</string>
+    <string name="window_thermostat_mode_auto">auto</string>
+    
+    <string name="window_thermostat_fanmode_on">włącz</string>
+    <string name="window_thermostat_fanmode_cycle">cykl</string>
+    <string name="window_thermostat_fanmode_auto">auto</string>
+    
+    <!-- OTHERS -->
+    
+    <string name="kitchen_icon_name">Kuchnia</string>
+    <string name="restroom_icon_name">Pokój</string>
+    <string name="bedroom_icon_name">Sypialnia</string>
+    <string name="bathroom_icon_name">Łazienka</string>
+    <string name="anteroom_icon_name">Przedpokój</string>
+    <string name="basement_icon_name">Piwnica</string>
+    <string name="cloakroom_icon_name">Garderoba</string>
+    <string name="garage_icon_name">Garaż</string>
+    <string name="kidsroom_icon_name">Pokój dziecka</string>
+
+	<string name="bathroom2_icon_name">Łazienka 2</string>
+	<string name="bedroom2_icon_name">Sypialnia 2</string>
+	<string name="restroom2_icon_name">Pokój 2</string>
+		
+	<string name="dining_room_icon_name">Jadalnia</string>
+	<string name="education_room_icon_name">Pokój do nauki</string>
+	<string name="garden_icon_name">Ogród</string>
+	<string name="laundry_icon_name">Pralnia</string>
+	<string name="library_icon_name">Biblioteka</string>
+	<string name="multimedia_icon_name">Multimedia</string>
+	<string name="office_icon_name">Biuro</string>
+	<string name="pool_icon_name">Basen</string>
+	<string name="stairs_icon_name">Schody</string>	
+	<string name="empty_icon_name">Bez ikony</string>	
+	
+    
+    
+    <string name="condition_txt">warunki:\nwiatr:\nKierunek wiatru:\nPrędkość wiatru:\n</string>
+    <string name="thermostat_state_desc">grzanie:\nchłodzenie:\ntryb term.:\ntryb wentylacji:\nstate:\n</string>
+    
+    <string name="variable_txt">nazwa zmiennej 1:\nnazwa zmiennej 2:\nnazwa zmiennej 3:\nnazwa zmiennej 4:\nnazwa zmiennej 5:</string>
+    <string name="variable_state_txt">0\n0\n0\n0\n0</string>
+    
+    <string name="sunrise_txt">wschód</string>
+    <string name="sunset_txt">zachód</string>
+    
+    <string name="no_connection_reminder">Brak połączenia z serwerem</string>
+    
+    
+    <!-- ERRORS -->
+    
+    <string name="error_undefined">nieznany błąd</string>
+    <string name="error_getting_data">błąd pobierania danych</string>
+    <string name="error_cannot_find_camera">Nie mogę znaleźć kamery</string>
+    <string name="camera_view_error_getting_view">Błąd adresu kamery</string>
+    
+    <!-- OPTIONS -->
+    
+    <string name="options_change_servers_window_desc">Zmień serwer</string>
+    
+    <!-- KEYPAD -->
+    
+    <string name="one_num">1</string>
+    <string name="two_num">2</string>
+    <string name="three_num">3</string>
+    <string name="four_num">4</string>
+    <string name="five_num">5</string>
+    <string name="six_num">6</string>
+    <string name="seven_num">7</string>
+    <string name="eight_num">8</string>
+    <string name="nine_num">9</string>
+    <string name="zero_num">0</string>
+    <string name="close_txt">zamknij</string>
+    <string name="open_txt">otwórz</string>
+    
+    <!-- CONNECTION MESSAGES -->
+    <string name="contype_noconfig_txt">Nie ustawiono parametrów połączenia</string>
+    <string name="contype_noremoteconfig_txt">Brak ustawień dla połączenia zdalnego</string>
+    <string name="contype_nointernet_txt">Brak połączenia z serwerem</string>
+    <string name="contype_veranotfound_txt">Nie zanleziono Very</string>
+    <string name="contype_vera_localy_txt">Vera znaleziona w sieci lokalnej</string>
+    <string name="contype_veraremote_txt">Vera znaleziona zdalnie</string>
+    <string name="contype_badlogin_txt">Nieprawidłowe dane logowania</string>
+    
+    <!-- RESPONSES MESSAGES-->
+	<string name="response_jobid">Wysłano zadanie.\nZadanie nr: </string>
+	<string name="response_ok">Komenda wysłana.\nOdpowiedź: </string>
+    
+	<!-- ASTRONOMIC MODULE -->
+
+	<string name="astronomic_nodata">brak danych</string>
+	
+	<!-- TASKS RESPONSES -->
+    <string name="task_switch_turnon">Włącz</string>
+    <string name="task_switch_turnoff">Wyłącz</string>
+    <string name="task_switch_setto_1">Włącz</string>
+    <string name="task_switch_setto_0">Wyłącz</string>
+
+    <string name="task_dim_setto">Ustaw na</string>
+    
+    <string name="task_runscene">Uruchom</string>
+    
+    <string name="task_securitySensor_setto_1">Uzbrój</string>
+    <string name="task_securitySensor_setto_0">Rozbrój</string>
+    
+    <string name="task_lock_setto_1">Zamknij</string>
+    <string name="task_lock_setto_0">Otwórz</string>
+    
+    <string name="task_danfoss_setto">Ustaw na</string>
+
+    <string name="task_windowCover_setto">Ustaw na</string>
+    <string name="task_windowCover_setto_up">Podnieś</string>
+    <string name="task_windowCover_setto_down">Opuść</string>
+    <string name="task_windowCover_setto_stop">Zatrzymaj</string>
+    
+    <string name="task_hvacMode_setto_auto">Ustaw tryb auto</string>
+    <string name="task_hvacMode_setto_off">Wyłącz</string>
+    <string name="task_hvacMode_setto_heat">Tryb grzania</string>
+    <string name="task_hvacMode_setto_cool">Tryb chłodzenia</string>
+    <string name="task_hvacTemp_setto_heat">Temperatura grzania na</string>
+    <string name="task_hvacTemp_setto_cool">Temperatura chłodzenia na</string>
+    <string name="task_fanMode_setto_auto">Automatyczny tryb wentylacji</string>
+    <string name="task_fanMode_setto_on">Włącz wentylację</string>
+    <string name="task_fanMode_setto_cycle">Cykliczny tryb wentylacji</string>
+    <string name="task_ecoMode_setto_cycle">Tryb ECO</string>   	
+	
+    <!-- icons description... do not translate -->
+    
+    <string name="tlo_astronomic">tlo_astronomic</string>    
+    <string name="astronomic_icon_active">astronomic_icon_active</string>
+    <string name="sun_icon">sun_icon</string>    
+    <string name="moon_icon">moon_icon</string>   
+    <string name="child_bckg">child_bckg</string>   
+    <string name="blind_icon">blind_icon</string>   
+    <string name="camera_icon">camera_icon</string>
+    <string name="gears_icon">gears_icon</string>    
+    <string name="chronos_icon">chronos_icon</string>    
+    <string name="hash_icon">hash_icon</string>    
+    <string name="star_icon">star_icon</string>    
+    <string name="up_icon">up_icon</string>
+    <string name="danfoss_icon">danfoss_icon</string>   
+    <string name="dimmer_icon">dimmer_icon</string>   
+    <string name="door_icon">door_icon</string>   
+    <string name="dis_icon">dis_icon</string>
+    <string name="humi_sensor_icon">humi_sensor_icon</string>
+    <string name="light_sensor_icon">light_sensor_icon</string>
+    <string name="lock_icon">lock_icon</string>
+    <string name="move_icon">move_icon</string>
+    <string name="power_icon">power_icon</string>
+    <string name="scene_icon">scene_icon</string>
+    <string name="smoke_icon">smoke_icon</string>
+    <string name="fire_icon">fire_icon</string>
+    <string name="sunpos_icon">sunpos_icon</string>
+    <string name="angle_icon">angle_icon</string>
+    <string name="azimuth_icon">azimuth_icon</string>
+    <string name="switch_icon">switch_icon</string>
+    <string name="on_icon">on_icon</string>
+    <string name="temp_sens_icon">temp_sens_icon</string>
+    <string name="thermostat_icon">thermostat_icon</string>
+    <string name="wheather_icon">wheather_icon</string>
+    <string name="window_cover_icon">window_cover_icon</string>
+    <string name="window_icon">window_icon</string>
+    <string name="window_bckg">window_bckg</string>
+    <string name="room_icon">room_icon</string>
+    <string name="window_shutter_btn">window_shutter_btn</string>
+    <string name="settings_room_icon">settings_room_icon</string>
+    <string name="navigator">navigator_graphics</string>
+    
+    
+    <!-- CONFIGURATION AND SETTINGS STRINGS -->
+    
+    <string name="users_menu_txt">Użytkownik</string>
+    <string name="settings_menu_txt">Zaawansowane</string>
+    
+    <string name="settings_choose_vera">Wybierz serwer</string>
+    <string name="Settings_ok">OK</string>
+    <string name="Settings_cancel">Anuluj</string>
+    
+    <string name="settings_setvera_txt">Zmień serwer</string>
+    
+    <string name="inline_preferences">Ustawienia</string>
+    <string name="settings_window_name">Skonfiguruj swój serwer</string>
+    <string name="advanced_settings_window_name">Ustawienia zaawansowane</string>
+    
+    <string name="local_settings">Połączenie lokalne</string>    
+    <string name="ipaddress_settings_txt">Adres IP</string>    
+    <string name="ipaddress_settings_desc">Adres IP serwera w sieci lokalnej</string>    
+    <string name="findip_settings_txt">Pobierz automatycznie</string>    
+    <string name="findip_settings_desc">Pobiera IP automatycznie (wymaga połączenia z internetem)</string>    
+    
+    <string name="remote_settings">Połączenie zdalne</string> 
+    <string name="username_settings_txt">Użytkownik</string>    
+    <string name="username_settings_desc">Nazwa użytkownika w systemie Mios</string>    
+    <string name="password_settings_txt">Hasło</string>    
+    <string name="password_settings_desc">Hasło systemu Mios</string>
+
+    <string name="veranumber_settings_txt">Numer serwera</string>    
+    <string name="veranumber_settings_desc">Znajdziesz go na nalepcę pod Verą</string>    
+    <string name="servers_settings_txt">Zdalne serwery</string>    
+    <string name="servers_settings_desc">Serwery przez które Vera ma się połączyć zdalnie (oddzielone przecinkiem).</string>
+    <string name="portnumber_settings_txt">Port</string>    
+    <string name="portnumber_settings_desc">Numer portu przez który można łączyć się z serwerem (domyślnie 3480).</string>
+     
+    <!-- VOICE COMMANDS -->
+    
+    <string name="voice_turn_on">włącz</string>
+    <string name="voice_turn_off">wyłącz</string>
+
+    <string name="voice_lock">zamknij</string>
+    <string name="voice_unlock">otwórz</string>
+    
+    
+    <string name="voice_window_cover_close">zamknij</string>
+    <string name="voice_window_cover_open">otwórz</string>
+    <string name="voice_window_cover_stop">stop</string>
+    <string name="voice_window_cover_stop2">zatrzymaj</string>
+    
+    
+    <!-- LICENSING -->
+    <string name="license_error">błąd licencji</string>
+    <string name="no_license">Nie posiadasz licencji na ten program.\nMożesz go kupić w sklepie Google Play ;)</string>
+    
+    
+</resources>
